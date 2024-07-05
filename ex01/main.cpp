@@ -6,13 +6,14 @@
 /*   By: damendez <damendez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/05 15:10:55 by damendez          #+#    #+#             */
-/*   Updated: 2024/07/05 16:30:48 by damendez         ###   ########.fr       */
+/*   Updated: 2024/07/05 17:20:22 by damendez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 
-int main(void){
+int main(void)
+{
     std::string inum="";
     std::string name="";
     int num;
