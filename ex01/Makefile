@@ -6,13 +6,13 @@
 #    By: damendez <damendez@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/05 15:07:36 by damendez          #+#    #+#              #
-#    Updated: 2024/07/05 15:07:57 by damendez         ###   ########.fr        #
+#    Updated: 2024/07/05 16:29:44 by damendez         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		= Zombie
 
-SRC_FILES	= Zombie.cpp randomChump.cpp main.cpp
+SRC_FILES	= Zombie.cpp zombieHorde.cpp main.cpp
 
 HEADER		= Zombie.hpp
 
