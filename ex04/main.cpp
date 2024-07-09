@@ -6,7 +6,7 @@
 /*   By: damendez <damendez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/08 16:48:11 by damendez          #+#    #+#             */
-/*   Updated: 2024/07/08 17:03:37 by damendez         ###   ########.fr       */
+/*   Updated: 2024/07/09 12:36:32 by damendez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,12 @@
 int main (int argc, char **argv)
 {
     if (argc != 4){
-        std::cerr << "Usage: ./Sed <filename> <to_find> <replace>." << std::endl; // character error
+        std::cerr << "Usage: ./Sed <filename> <to_find> <to_replace>." << std::endl; // character error
         return 1;
     }
     else {
         Sed sed(argv[1]);
-        //sed.replace(argv[2], argv[3])
+        sed.replace(argv[2], argv[3]);
     }
     return 0;
 }
