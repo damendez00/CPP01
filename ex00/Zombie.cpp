@@ -6,7 +6,7 @@
 /*   By: damendez <damendez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/03 13:58:11 by damendez          #+#    #+#             */
-/*   Updated: 2024/07/05 15:00:57 by damendez         ###   ########.fr       */
+/*   Updated: 2024/07/15 15:53:06 by damendez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ Zombie::~Zombie() {
 }
 
 Zombie *newZombie(std::string name) {
-    return (new Zombie(name));
+    return (new Zombie(name)); // new initializes objects whose lifetime is not necessarily limited by the scope in which they were created.
 }
 
 void    Zombie::announce(void) const {

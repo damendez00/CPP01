@@ -6,7 +6,7 @@
 #    By: damendez <damendez@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/03 13:49:43 by damendez          #+#    #+#              #
-#    Updated: 2024/07/05 14:58:52 by damendez         ###   ########.fr        #
+#    Updated: 2024/07/15 15:36:12 by damendez         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,8 +23,8 @@ OBJS		= $(addprefix $(OBJ_DIR), $(OBJ_FILES))
 DEP_FILES	= $(SRC_FILES:.cpp=.d)
 DEPS		= $(addprefix $(OBJ_DIR), $(DEP_FILES))
 
-CC			= g++
-CFLAGS		= -std=c++98 -Wall -Wextra -Werror -MMD -g #-fsanitize=address
+CC			= c++
+CFLAGS		= -std=c++98 -Wall -Wextra -Werror -MMD -g
 RM			= rm -rf
 INCLUDE		= -I ./
 
