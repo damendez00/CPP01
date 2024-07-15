@@ -6,13 +6,13 @@
 /*   By: damendez <damendez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/05 16:35:09 by damendez          #+#    #+#             */
-/*   Updated: 2024/07/05 17:29:46 by damendez         ###   ########.fr       */
+/*   Updated: 2024/07/15 16:41:25 by damendez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 
-int	main(void)
+int	main( void )
 {
 	std::string str = "HI THIS IS BRAIN";
 	std::string *stringPTR = &str;
